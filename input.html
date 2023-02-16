@@ -1,0 +1,167 @@
+<!--simple example of input types--> <input type="anything">
+
+
+<p>Sign in to your account:</p>
+
+<form
+  <label for="userId">User ID</label>
+  <input type="text" id="userId" name="userId">
+</div>
+
+<input type="image" id="image" alt="Login"
+       src="/media/examples/login-button.png">
+    </form>
+
+
+
+    <form>
+        <label for="bday-month">What month were you born in?</label>
+ <input id="bday-month" type="month" name="bday-month" value="2001-06" />
+    </form>
+
+
+    <form>
+        <label for="site-search">Search the site:</label>
+<input type="search" id="site-search" name="q">
+
+<button>Search</button>
+    </form>
+
+
+
+    <form>
+        <input type="submit" value="Send Request" />
+        <input type="submit" />
+    </form>
+
+
+
+    <form>
+        <label for="phone">Enter your phone number:</label>
+
+<input type="tel" id="phone" name="phone"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required>
+
+<small>Format: 123-456-7890</small>
+    </form>
+
+
+
+    <form>
+        <label for="name">Name (4 to 8 characters):</label>
+
+<input type="text" id="name" name="name" required
+       minlength="4" maxlength="8" size="10">
+    </form>
+
+
+   
+    <form>
+        <label for="appt">Choose a time for your meeting:</label>
+
+<input type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required>
+
+<small>Office hours are 9am to 6pm</small>
+    </form>
+
+
+
+    <form>
+        <label for="url">Enter an https:// URL:</label>
+
+<input type="url" name="url" id="url"
+       placeholder="https://example.com"
+       pattern="https://.*" size="30"
+       required>
+    </form>
+
+
+
+    <form><label for="week">Choose a week in May or June:</label>
+        <input type="week" name="week" id="camp-week"
+               min="2018-W18" max="2018-W26" required>
+        </form>
+
+
+    
+    <form>
+        <input class="favorite styled"
+       type="button"
+       value="Add to favorites">
+    </form>
+
+
+
+
+<form>
+    <fieldset>
+        <legend>Choose your monster's features:</legend>
+    
+        <div>
+          <input type="checkbox" id="scales" name="scales" checked>
+          <label for="scales">Scales</label>
+        </div>
+    
+        <div>
+          <input type="checkbox" id="horns" name="horns">
+          <label for="horns">Horns</label>
+        </div>
+    </fieldset>
+</form>
+
+
+
+
+<form>
+    <p>Choose your monster's colors:</p>
+
+<div>
+    <input type="color" id="head" name="head"
+           value="#e66465">
+    <label for="head">Head</label>
+</div>
+
+<div>
+    <input type="color" id="body" name="body"
+            value="#f6b73c">
+    <label for="body">Body</label>
+</div>
+</form>
+
+
+
+    <form action="https://example.com">
+        <label>
+          Enter your birthday:
+          <input type="date" name="bday" />
+        </label>
+      
+        <p><button>Submit</button></p>
+      </form>
+      
+
+      <form>
+        <label for="meeting-time">Choose a time for your appointment:</label>
+
+<input type="datetime-local" id="meeting-time"
+       name="meeting-time" value="2018-06-12T19:30"
+       min="2018-06-07T00:00" max="2018-06-14T00:00">
+      </form>
+
+
+      <form>
+        <label for="email">Enter your globex.com email:</label>
+    <input type="email" id="email"
+       pattern=".+@globex\.com" size="30" required>
+      </form>
+
+
+      <form>
+        <label for="avatar">Choose a profile picture:</label>
+
+<input type="file"
+       id="avatar" name="avatar"
+       accept="image/png, image/jpeg">
+      </form>

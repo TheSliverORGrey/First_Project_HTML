@@ -1,0 +1,30 @@
+
+body{background-color: aqua;}
+
+
+.hero {width: 100%;
+        height: 500%px;
+        
+        background-image: url("../images/360_F_425510667_HCXdnDU15nzm7gFNCd1IRYdcG9Wl5uzC.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 100% 100%;
+        height: 600px;
+        max-width: 300%;
+
+}
+
+h1{color: black;}
+
+h3{color: rgba(153, 10, 5, 0.979);}
+
+hr{
+border-style: none; 
+border-top-style: color dotted; 
+background-color: none;
+border-width: 5px; 
+width: 5%; 
+}
+
+img{height: 250px;}
+
